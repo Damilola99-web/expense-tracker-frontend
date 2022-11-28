@@ -1,0 +1,1 @@
+export const baseUrl = "https://expense-tracker-rashtech.cyclic.app/api/v1/"

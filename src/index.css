@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotatee {
+    animation: rotate 1s linear  infinite;
+}
+
+.height {
+    min-height: calc(100vh - 96px);
+}
+.gtc {
+    grid-template-columns: 300px auto;
+    grid-gap: 20px;
+}
+.gridd {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 3fr 1fr;
+}
+.gridc {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto 40px;
+}
