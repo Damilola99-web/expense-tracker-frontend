@@ -1,15 +1,37 @@
 {
-    "short_name": "Weather App",
-    "name": "Weather App PWA",
-    "icons": [
-        {
-            "src": "/images/logo.png",
-            "type": "image/png",
-            "sizes": "1024x1024"
-        }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+	"name": "Expense Tracker",
+	"short_name": "Expense Tracker",
+	"theme_color": "#000000",
+	"background_color": "#000000",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "./maskable_icon.png",
+			"sizes": "512×512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./192x192.png",
+			"sizes": "192×192",
+			"type": "image/png"
+		},
+		{
+			"src": "./256.png",
+			"sizes": "256×256",
+			"type": "image/png"
+		},
+		{
+			"src": "./384.png",
+			"sizes": "384×384",
+			"type": "image/png"
+		},
+		{
+			"src": "./512.png",
+			"sizes": "512×512",
+			"type": "image/png"
+		}
+	]
 }
