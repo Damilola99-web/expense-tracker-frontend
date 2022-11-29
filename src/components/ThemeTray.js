@@ -35,7 +35,7 @@ export default function ThemeTray() {
 			<div className=" group-hover:flex flex-col hidden absolute w-[200px] h-auto p-4 rounded-md bg-white dark:bg-slate-900 shadow-lg top-4 space-y-3">
 				<div
 					onClick={() => changeTheme('light')}
-					className="flex space-x-4 items-center"
+					className="flex space-x-4 items-center cursor-pointer"
 				>
 					<button>
 						<MdLightMode size={27} />
@@ -44,7 +44,7 @@ export default function ThemeTray() {
 				</div>
 				<div
 					onClick={() => changeTheme('dark')}
-					className="flex space-x-4 items-center"
+					className="flex space-x-4 items-center cursor-pointer"
 				>
 					<button>
 						<MdDarkMode size={27} />
@@ -53,7 +53,7 @@ export default function ThemeTray() {
 				</div>
 				<div
 					onClick={handleSystemTheme}
-					className="flex space-x-4 items-center"
+					className="flex space-x-4 items-center cursor-pointer"
 				>
 					<button>
 						<MdLaptopMac size={27} />
